@@ -313,7 +313,7 @@ public class Service extends android.app.Service implements SensorEventListener,
 
         getLastLocation();
 
-        String filepath = Environment.getExternalStorageDirectory().getAbsolutePath()+"/Difesa/number.txt";
+        String filepath = Environment.getExternalStorageDirectory().getAbsolutePath()+"/GuardianAngel/number.txt";
         FileInputStream fis = null;
         byte[] buffer;
         try {
@@ -579,7 +579,7 @@ public class Service extends android.app.Service implements SensorEventListener,
                 getLastLocation();
 
 
-                String filepath = Environment.getExternalStorageDirectory().getAbsolutePath()+"/Difesa/number.txt";
+                String filepath = Environment.getExternalStorageDirectory().getAbsolutePath()+"/GuardianAngel/number.txt";
                 FileInputStream fis = null;
                 byte[] buffer;
                 try {
