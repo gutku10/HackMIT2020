@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "839770846564",
+    "firebase_url": "https://guardian-angel-5259f.firebaseio.com",
+    "project_id": "guardian-angel-5259f",
+    "storage_bucket": "guardian-angel-5259f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839770846564:android:4a958f7803eeb80cf73671",
+        "android_client_info": {
+          "package_name": "com.example.GuardianAngel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839770846564-bm7rp4r95h3iqbo771nigvjcu7l9h5d8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvpUpGEs0uatdQSy_BqDIaDVPMUpSmDqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839770846564-bm7rp4r95h3iqbo771nigvjcu7l9h5d8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839770846564:android:9a6024128fe15546f73671",
+        "android_client_info": {
+          "package_name": "com.example.rentcar_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839770846564-bm7rp4r95h3iqbo771nigvjcu7l9h5d8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvpUpGEs0uatdQSy_BqDIaDVPMUpSmDqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839770846564-bm7rp4r95h3iqbo771nigvjcu7l9h5d8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
