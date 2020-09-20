@@ -114,64 +114,6 @@ app.get('/emergency', (req, res) => {
   // }
 });
 
-// app.get('/maps/:eachAdmin', (req, res) => {
-//   // var current_user = firebase.auth().currentUser;
-//   // if (current_user != null) {
-//   const prodId = req.params.eachAdmin;
-//   var abhinav = [];
-//   var qw = [];
-//   var qw2 = [];
-//   var total = firebase.database().ref('User');
-
-//   total.once('value', (data) => {
-//     if (data.val()) {
-//       var teachers = Object.getOwnPropertyNames(data.val());
-//       var abhi = data.val();
-//       teachers.forEach((teacher) => {
-//         if (prodId == teacher) {
-//           var total = firebase.database().ref('User');
-//           var second = firebase.database().ref('Location/users');
-//           var third = firebase.database().ref('Near/users');
-
-//           third.once('value', (data) => {
-//             if (data.val()) {
-//               var new_value = data.val();
-//               var usq = Object.getOwnPropertyNames(data.val());
-//               usq.forEach((useq) => {
-//                 if (prodId == useq) {
-//                   qw.push(
-//                     Object.getOwnPropertyNames(new_value[prodId]['Coming'])
-//                   );
-
-//                   second.once('value', (data) => {
-//                     var zabhi = Object.getOwnPropertyNames(data.val());
-//                     var pol = data.val();
-//                     zabhi.forEach((za) => {
-//                       if (prodId == za) {
-//                         res.render('maps', {
-//                           teacher: prodId,
-//                           data: abhi,
-//                           helper: pol[qw[0]],
-//                           length: qw[0].length,
-//                           lat: pol[prodId]['Latitude'],
-//                           lng: pol[prodId]['Longitude'],
-//                           // user: current_user.displayName,
-//                           user: 'abhi',
-//                         });
-//                       }
-//                     });
-//                   });
-//                 }
-//               });
-//             }
-//           });
-//         }
-//       });
-//     }
-//   });
-//   // }
-// });
-
 app.get('/cmt-:eachUser', (req, res) => {
   // var current_user = firebase.auth().currentUser;
   // if (current_user != null) {
