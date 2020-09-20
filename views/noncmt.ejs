@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Mirrored from iqonic.design/themes/xray/html/profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Sep 2020 19:32:47 GMT -->
+  <!-- Mirrored from iqonic.design/themes/Guardian/html/profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Sep 2020 19:32:47 GMT -->
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -50,7 +50,7 @@
         <div class="iq-sidebar-logo d-flex justify-content-between">
           <a href="index.html">
             <img src="images/logo.png" class="img-fluid" alt="" />
-            <span>XRay</span>
+            <span>Guardian</span>
           </a>
           <div class="iq-menu-bt-sidebar">
             <div class="iq-menu-bt align-self-center">
@@ -658,7 +658,7 @@
               <div class="top-logo">
                 <a href="index.html" class="logo">
                   <img src="images/logo.png" class="img-fluid" alt="" />
-                  <span>XRay</span>
+                  <span>Guardian</span>
                 </a>
               </div>
             </div>
@@ -959,7 +959,7 @@
                       alt="user"
                     />
                     <div class="caption">
-                      <h6 class="mb-0 line-height">Bini Jets</h6>
+                      <h6 class="mb-0 line-height"><%= det['First Name'] %> <%= det['Last Name'] %></h6>
                       <span class="font-size-12">Available</span>
                     </div>
                   </a>
@@ -968,7 +968,7 @@
                       <div class="iq-card-body p-0">
                         <div class="bg-primary p-3">
                           <h5 class="mb-0 text-white line-height">
-                            Hello Bini Jets
+                            Hello <%= det['First Name'] %> <%= det['Last Name'] %>
                           </h5>
                           <span class="text-white font-size-12">Available</span>
                         </div>
@@ -1189,15 +1189,16 @@
                     </div>
                     <div class="iq-card-body">
                       <ul class="profile-img-gallary d-flex flex-wrap p-0 m-0">
+                        
                         <li class="col-md-4 col-6 pb-3">
                           <a href="javascript:void();"
                             ><img
-                              src="images/page-img/g1.jpg"
+                              src="<%= emerg['Images'] %>"
                               alt="gallary-image"
                               class="img-fluid"
                           /></a>
                         </li>
-                        <li class="col-md-4 col-6 pb-3">
+                        <!-- <li class="col-md-4 col-6 pb-3">
                           <a href="javascript:void();"
                             ><img
                               src="images/page-img/g2.jpg"
@@ -1236,7 +1237,7 @@
                               alt="gallary-image"
                               class="img-fluid"
                           /></a>
-                        </li>
+                        </li> -->
                       </ul>
                     </div>
                   </div>
@@ -1363,7 +1364,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 text-right">
-                Copyright 2020 <a href="#">XRay</a> All Rights Reserved.
+                Copyright 2020 <a href="#">Guardian</a> All Rights Reserved.
               </div>
             </div>
           </div>
@@ -1456,5 +1457,5 @@
     ></script>
   </body>
 
-  <!-- Mirrored from iqonic.design/themes/xray/html/profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Sep 2020 19:32:55 GMT -->
+  <!-- Mirrored from iqonic.design/themes/Guardian/html/profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Sep 2020 19:32:55 GMT -->
 </html>

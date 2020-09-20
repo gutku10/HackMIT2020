@@ -75,9 +75,9 @@ app.post('/signin', (req, res) => {
             .auth()
             .signInWithEmailAndPassword(email, password)
             .then(() => {
-              res.redirect('/');
+              res.redirect('/emergency');
             })
-            .catch((err) => res.redirect('/signin'));
+            // .catch((err) => res.redirect('/signin'));
         }
       });
     }
